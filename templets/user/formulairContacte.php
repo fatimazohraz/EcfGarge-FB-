@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style/formStyle.css">
-</head>
-<body>
-    <form action="fichier.php" method="post">
+<?php
+include('../header.php');
+
+?>
+<!-- debut code formulaire de contacte user-->
+
+<form action="fichier.php" method="post">
         <div>
             <label for="nom">nom</label>
             <input type="text"  name="nom" id="nom">
@@ -29,8 +26,9 @@
         </div>
 
         <div>
-            <label for="message">message</label>
-             <input type="text" name="message" id="message">
+           
+            <textarea name="message" id="message" cols="30" rows="10">message</textarea>
+             
         </div>
         
         <div>
@@ -39,7 +37,8 @@
         
     </form>
 
-<    
-</body>
-</html
+    <!-- fin code formulaire de contacte user-->
 
+<?php
+include_once('../footer.php');
+?>

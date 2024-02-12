@@ -51,8 +51,8 @@ form div{
    border: 1px solode rgba(0, 0, 0, 0.2);
    padding: 5px;
  }
-  input:focus{
-    border: 0.5px solide orangered;
+  input:focus, textarea{
+    border: 0.5px solide black;
   }
 
   input[type="submit"] {
@@ -67,7 +67,10 @@ form div{
     width: 6em;
 
   }
-
+  textarea {
+    align-items: center;
+    justify-content: center ;
+  }
 
   /*css media queries*/
 
