@@ -3,7 +3,7 @@
         <div class="connecterFooter1">
             <h2>contacter nous</h2>
             <p>tel:4587965488522</p>
-            <p>envoyer un message en clicent <a href="templets/user/formulair.php">ici</a></p>
+            <p>envoyer un message en clicent <a href="formulairecontacte.php">ici</a></p>
            
         </div>
         <div class="connecterFooter2">
@@ -32,4 +32,4 @@
 </html>
 
 
-<!--debut footer-->
+<!--fin footer-->

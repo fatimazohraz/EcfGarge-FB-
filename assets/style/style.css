@@ -47,7 +47,7 @@ a:hover{
     color:#0D659D ;
 
 }
-/*fi css header*/
+/*fin css header*/
 
 /*css body*/
 
@@ -61,6 +61,11 @@ h2 {
     font-size: ;
     font-weight: bold;
  }
+ h1 {
+    text-transform: capitalize;
+
+ }
+
 
 
 /*css footer*/

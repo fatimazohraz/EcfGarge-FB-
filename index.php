@@ -12,7 +12,7 @@ include_once('templets/header.php');
 <!--fin header -->
 
 <!--debut section2-->
-<section {margin}{bottom}-{10px}>
+<section class= mb-20>
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -82,7 +82,7 @@ include_once('templets/header.php');
 </div>
 <div>
 
-    <a href="" class="btn btn-primary">détailles</a>
+    <a href="cars.php" class="btn btn-primary">détailles</a>
 
 </div>
 
