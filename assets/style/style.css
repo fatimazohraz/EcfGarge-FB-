@@ -1,4 +1,8 @@
+.flux {
+ margin-left: 20px;
+ margin-right: 20px;
 
+}
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +47,15 @@ a:hover{
     color:#0D659D ;
 
 }
+/*fi css header*/
 
+/*css body*/
+
+.conteneurSection2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
 h2 {
     text-transform: capitalize;
     font-size: ;

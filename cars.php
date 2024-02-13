@@ -1,17 +1,29 @@
 
-//header
+<?php 
+include_once('templets/header.php');
+?>
+
+<h1>nos voiture</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php
-$cars=[
-
-]
-
-$pdo= new PDO('mysql: host=localhost; bdname=progrt_baseDeDonnée');
+include_once('templets/footer.php');
 
 ?>
-<?php
-
-$pdo = new PDO('pgsql:host=localhost;port=5432;dbname=nomBDD;user=utilisateur;password=motDePasse';
-
-
-

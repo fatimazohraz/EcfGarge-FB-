@@ -15,10 +15,10 @@
 <body>
     <header>
         <nav class="navcontainer">
-            <a href="index.php"><img src="assets/imagesOccation/images.jpg" alt="logo garage"></a>
+            <a href="index.php"><img src="assets/image/images.jpg" alt="logo garage"></a>
             <ul>
                 <li><a href="">nos service</a></li>
-                <li><a href="">nos voitures</a></li>
+                <li><a href="cars.php">nos voitures</a></li>
                 <li><a href="">se connecter</a></li>
 
             </ul>
