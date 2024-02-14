@@ -10,9 +10,33 @@ include_once('templets/header.php');
 ?>
 
 <!--fin header -->
+<!-- debut section1 -->
+
+<section>
+  <div>
+    <img src="" alt="">
+  </div>
+  <div>
+
+  </div>
+
+
+
+
+
+
+</section>
+<!--fin section1-->
+
+
+
+
+
 
 <!--debut section2-->
-<section class= mb-20>
+
+<section>
+<div class= my-5>
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -60,11 +84,14 @@ include_once('templets/header.php');
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+</div>
+
 </section>
 <!-- fin section2-->
 
 
 <!--debut section3 carsCard -->
+<div class="my-5">
 
 <?php
  $cars= [
@@ -80,12 +107,13 @@ include_once('templets/header.php');
 
     } ?>
 </div>
-<div>
+<div class="text-center mt-5  col-4 col-sm-4 col-md-6 m-auto">
 
-    <a href="cars.php" class="btn btn-primary">détailles</a>
+    <a href="cars.php" class="btn btn-primary">voir plus de voiture</a>
 
 </div>
 
+</div>
 
 
 <!--fin section3 carsCard -->
