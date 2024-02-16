@@ -7,11 +7,11 @@ include_once('templets/header.php')
 <main>
     <div class="mx-4 my-5">
        <div class="container ">
-         <h1 class="text-center" >Entretien et réparation</h1>
+         <h2 class="text-center" >Entretien et réparation</h2>
         <div class="container">
-        <div class="mx-4 my-5 row">
-          <div class="col-lg-6">
-            <img src="assets/image/imageMecanique.jpg" alt="image entretienMec">
+        <div class="mx-2 my-5 row">
+          <div class="col-lg-6" width='50%' >
+            <img src="assets/image/imageMecanique.jpg" alt="image entretienMec ">
           </div>
           <div class="text-center col-lg-6 ">
           <p >
@@ -82,6 +82,52 @@ include_once('templets/header.php')
             <h3 class="text-center">pour toute question contacter nous <a href="">ici.</a></h3>
       </div>
     </div>
+
+
+<div class="mx-4 my-5">
+    <div class="container ">
+         <h1 class="text-center" >réparation carroserier</h1>
+        <div class="container">
+        <div class="mx-2 my-5 row">
+          <div class="col-lg-6">
+            <img src="assets/image/entretienCarrosserie.avif" alt="image entretienMec">
+          </div>
+          <div class="text-center col-lg-6 ">
+          <p >
+            
+          </p>
+          </div>
+        </div>
+        </div> 
+    </div>    
+</div>
+
+<div class="mx-4 my-5">
+    <div class="container ">
+         <h1 class="text-center" >nétoyage voiture</h1>
+        <div class="container">
+        <div class="mx-2 my-5 row">
+          <div class="col-lg-6">
+            <img src="assets/image/entretienrégulier.jpg" alt="image entretienMec">
+          </div>
+          <div class="text-center col-lg-6 ">
+            <ul>
+
+              <li>passage d'aspirateur</li>
+              <li>brossage plancher/tapis</li>
+              <li>dépoussiérage intégral</li> 
+              <li>second passage d'aspirateur</li>
+              <li>nettoyage des plastiques et cuirs intérieur</li>
+              <li>lavage de l'extérieur</li>
+              <li>rinçage de l'extérieur</li>
+            
+            </ul>
+          </div>
+        </div>
+        </div>    
+    </div>
+</div>
+
 </main>
 
 <?php

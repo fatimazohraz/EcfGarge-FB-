@@ -17,7 +17,7 @@
         <nav class="navcontainer">
             <a href="index.php"><img src="assets/image/images.jpg" alt="logo garage"></a>
             <ul>
-                <li><a href="">nos service</a></li>
+                <li><a href="">nos services</a></li>
                 <li><a href="cars.php">nos voitures</a></li>
                 <li><a href="formulaireconnection.php">se connecter</a></li>
 

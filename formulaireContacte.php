@@ -17,7 +17,7 @@ include_once('templets/header.php');
             <div class="card border-0 shadow">
               <div class="card-body">
                 <h4 class="mx-auto my-3"  width="50" height="50" fill="currentColor" 
-                class="bi bi-person-circle" viewBox="0 0 16 16">vos coordoées</h4>
+                class="bi bi-person-circle" viewBox="0 0 16 16">vos coordonnées</h4>
                     <form action="fichier.php" method="post">
                         <div class="mb-3 ">
                             <label for="nom" class="form-label">nom</label>
@@ -40,7 +40,7 @@ include_once('templets/header.php');
                         </div>
 
                         <div class="mb-3 ">
-                            <textarea name="message" id="message" cols="30" rows="10" class="form-control">votre message</textarea>
+                            <textarea name="message" id="message" cols="20" rows="5" class="form-control">votre message</textarea>
 
                         </div>
                         
