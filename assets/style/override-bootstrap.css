@@ -55,14 +55,17 @@
 h1 {
   color:  #9d0208;
   text-transform: capitalize;
+  font-family: "EB Garamond", serif;
+
 }
 
 h2, h3 {
     color: #f35b04;
+    font-family: "EB Garamond", serif;
+
 }
 
 h4{
-
     color: #1e1d47;
 }
 

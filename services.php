@@ -9,9 +9,9 @@ include_once('templets/header.php')
        <div class="container ">
          <h2 class="text-center" >Entretien et réparation</h2>
         <div class="container">
-        <div class="mx-2 my-5 row">
+        <div class="row  align-items-center g-5 py-5">
           <div class="col-lg-6" width='50%' >
-            <img src="assets/image/imageMecanique.jpg" alt="image entretienMec ">
+            <img src="assets/image/imageMecanique.jpg" alt="image entretienMec " class="d-block mx-lg-auto img-fluid  rounded">
           </div>
           <div class="text-center col-lg-6 ">
           <p >
@@ -88,9 +88,9 @@ include_once('templets/header.php')
     <div class="container ">
          <h1 class="text-center" >réparation carroserier</h1>
         <div class="container">
-        <div class="mx-2 my-5 row">
+        <div class="row  align-items-center g-5 py-5">
           <div class="col-lg-6">
-            <img src="assets/image/entretienCarrosserie.avif" alt="image entretienMec">
+            <img src="assets/image/entretienCarrosserie.avif" alt="image entretienMec" class="d-block mx-lg-auto img-fluid  rounded">
           </div>
           <div class="text-center col-lg-6 ">
           <p >
@@ -106,12 +106,12 @@ include_once('templets/header.php')
     <div class="container ">
          <h1 class="text-center" >nétoyage voiture</h1>
         <div class="container">
-        <div class="mx-2 my-5 row">
+        <div class="row  align-items-center g-5 py-5">
           <div class="col-lg-6">
-            <img src="assets/image/entretienrégulier.jpg" alt="image entretienMec">
+            <img src="assets/image/entretienRegulier.jpg" alt="image entretienMec" class="d-block mx-lg-auto img-fluid  rounded">
           </div>
           <div class="text-center col-lg-6 ">
-            <ul>
+            <ul class = "list-unstyled">
 
               <li>passage d'aspirateur</li>
               <li>brossage plancher/tapis</li>

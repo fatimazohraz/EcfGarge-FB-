@@ -128,7 +128,7 @@ include_once('app/tools/carfunc.php');
                 </div>
                 <div >  
                   <div class="text-center my-4 " >
-                    <button class="btn btn-primary " type="button">poster votre avis</button>
+                    <a href="formulaireAvis.php"><button class="btn btn-primary " type="button">poster votre avis</button></a>
                   </div>
                 </div>  
               </div>

@@ -1,7 +1,7 @@
 <!--header-->
 
 <?php
-include_once('../header.php');
+include_once('templets/header.php');
 ?>
 
 <!--fin header -->
@@ -43,7 +43,7 @@ include_once('../header.php');
 <!--footer -->
 
 <?php
-include_once('../footer.php');
+include_once('templets/footer.php');
 
 ?>
 <!--fin footer-->
