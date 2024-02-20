@@ -1,24 +1,23 @@
 <!--constance carsCard -->
 <?php
-  define('_CARS_IMG_PATH','upload/voitureNeuf/');
+  define('_CARS_IMG_PATH','upload/voitureoccation/');
 ?>
 
 <?php 
 include_once('templets/header.php');
+include_once('app/tools/carfunc.php');
+
+
+
+
+    $pdo = new PDO('mysql:dbname=garagevparrot;host=localhost;charset=utf8mb4', 'root', '');
+    $cars = getcars($pdo);
+
+
+
 ?>
+<h1 class="my-5 ml-3 text-center">nos voiture</h1>
 
-
-<h1>nos voiture</h1>
-
-
-
-<?php
-    $cars= [
-        ['title'=>'Alfa romeo c4', 'description' => 'bulk of the card content','picture'=>'alfaromeoc4rouge.jpg','price'=>'63200 €','year'=>'2023','km'=>'neuf'],
-        ['title'=>'berline BMW bleu', 'description' => 'bulk of the card content','picture'=>'BerlineBmwBleue.jpg','price'=>'73800€ ','year'=>'2023','km'=>'neuf'],    
-        ['title'=>'berline BMW grise', 'description' => 'bulk of the card content','picture'=>'BlancLandRoverRangeRover.jpg','price'=>'75400€ ','year'=>'2023','km'=>'neuf']
-        ]
-    ?>
  <div class="row mx-3" >
     <?php foreach ($cars as $kays=>$car){ 
 

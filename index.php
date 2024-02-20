@@ -1,11 +1,13 @@
 <!--constance carsCard -->
 <?php
-  define('_CARS_IMG_PATH','upload/voitureNeuf/');
+  define('_CARS_IMG_PATH','upload/voitureoccation/');
 ?>
 
 <!--header-->
 <?php
 include_once('templets/header.php');
+include_once('app/tools/carfunc.php');
+
 ?>
 <!--fin header -->
 
@@ -19,7 +21,7 @@ include_once('templets/header.php');
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4 text-capitalize">garage Vincent Parrot  on  vous propose une large gamme de services:
          réparation de la carrosserie et de la mécanique des voitures ainsi que leur entretien régulier pour
-          garantir leur performance et vente des véhicules d'occasion
+          garantir leur performance et vente des véhicules d'occasion.
       </p>
     
   </div>
@@ -91,11 +93,9 @@ include_once('templets/header.php');
 <div class="my-4">
 
     <?php
-    $cars= [
-        ['title'=>'Alfa romeo c4', 'description' => 'bulk of the card content','picture'=>'alfaromeoc4rouge.jpg','price'=>'63200 €','year'=>'2023','km'=>'neuf'],
-        ['title'=>'berline BMW bleu', 'description' => 'bulk of the card content','picture'=>'BerlineBmwBleue.jpg','price'=>'73800€ ','year'=>'2023','km'=>'neuf'],    
-        ['title'=>'berline BMW grise', 'description' => 'bulk of the card content','picture'=>'BlancLandRoverRangeRover.jpg','price'=>'75400€ ','year'=>'2023','km'=>'neuf']
-        ]
+    $pdo = new PDO('mysql:dbname=garagevparrot;host=localhost;charset=utf8mb4', 'root', '');
+    $cars = getcars($pdo, 3);
+
     ?>
  <div class="row mx-3" >
     <?php foreach ($cars as $kays=>$car){ 

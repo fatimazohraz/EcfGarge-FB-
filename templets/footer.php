@@ -10,19 +10,19 @@
             <h2>horaire douverture</h2>
             <div>
                
-               lun.  08:30 - 19:30 <br>
+              <div>lun.  08:30 - 19:30 <br></div>
                
-               mar.  08:30 - 19:30 <br>
+              <div>mar.  08:30 - 19:30 <br></div>
                 
-               mer.  08:30 - 19:30  <br>
+              <div>mer.  08:30 - 19:30  <br></div>
                 
-               jeu.  08:30 - 19:30  <br>
+              <div>jeu.  08:30 - 19:30  <br></div> 
                 
-               vend. 08:30 - 19:30  <br>
+               <div>vend. 08:30 - 19:30  <br></div>
                 
-               sam.  08:30 - 19:30  <br>
+               <div>sam.  08:30 - 19:30  <br></div>
                 
-                dim. fermé
+                <div>dim. fermé</div>
                 
             </div>
 
